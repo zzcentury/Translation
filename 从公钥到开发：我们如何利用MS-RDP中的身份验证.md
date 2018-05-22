@@ -7,6 +7,7 @@
 > 
 > 译文仅供参考，具体内容表达以及含义原文为准
 
+
 在周三的补丁中，微软发布了针对[CVE-2018-0886的补丁](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-0886)，这是Preempt发现的一个严重漏洞。此漏洞可分类为逻辑远程代码执行（RCE）漏洞。它类似于经典的中继攻击，但有一个很好的转折：它与RSA密码术（和素数）有关，这使得它非常独特和有趣。
 
 如果您正在查找有关漏洞和管理问题的概述，请参阅Yaron Zinar的[此博客](https://blog.preempt.com/security-advisory-credssp)。 
